@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation", "Implementation\Implementation.csproj", "{17EA52DD-7274-4E18-8EBF-1BC485C86843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationBuilder", "RelationBuilder\RelationBuilder.csproj", "{12540303-05EF-4218-A3F7-901BB80CB494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spike 1", "Spike 1", "{BEB6B4E4-DBD8-4A1C-977B-AF30B7A7FF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EA52DD-7274-4E18-8EBF-1BC485C86843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EA52DD-7274-4E18-8EBF-1BC485C86843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EA52DD-7274-4E18-8EBF-1BC485C86843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EA52DD-7274-4E18-8EBF-1BC485C86843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12540303-05EF-4218-A3F7-901BB80CB494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12540303-05EF-4218-A3F7-901BB80CB494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12540303-05EF-4218-A3F7-901BB80CB494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12540303-05EF-4218-A3F7-901BB80CB494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17EA52DD-7274-4E18-8EBF-1BC485C86843} = {BEB6B4E4-DBD8-4A1C-977B-AF30B7A7FF38}
+		{12540303-05EF-4218-A3F7-901BB80CB494} = {BEB6B4E4-DBD8-4A1C-977B-AF30B7A7FF38}
+		{431C496F-D6B7-4A71-A3F1-1E6B35AA8D84} = {BEB6B4E4-DBD8-4A1C-977B-AF30B7A7FF38}
+	EndGlobalSection
+EndGlobal
